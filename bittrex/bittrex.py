@@ -157,8 +157,8 @@ class Bittrex(object):
         except:
             return {
                'success' : False,
-               'message' : 'No API response',
-               'result'  : ''
+               'message' : 'NO_API_RESPONSE',
+               'result'  : None
             }
 
     def get_markets(self):
